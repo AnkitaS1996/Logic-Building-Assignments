@@ -29,7 +29,7 @@ int main()
 
 void Pattern(int iNo1,int iNo2)
 {
-    int i = 0,j = 0,cnt = 0;
+    int i = 0,j = 0;
     printf("\n========================================================================\n");
     for(i = 1;i <= iNo1;i++)
     {
@@ -47,4 +47,5 @@ void Pattern(int iNo1,int iNo2)
         printf("\n");
     }
     printf("\n=========================================================================\n");
+    return 0;
 }
