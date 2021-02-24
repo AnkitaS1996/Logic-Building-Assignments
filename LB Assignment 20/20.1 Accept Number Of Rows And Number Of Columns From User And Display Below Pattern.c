@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-////// Statement = Accept Number Of Rows And Number Of Columns From User And Display Below Pattern.
+////// Statement 20.1 = Accept Number Of Rows And Number Of Columns From User And Display Below Pattern.c
 //////      Input : iRow = 4 iCol = 4
 //////     Output : * * * #
 //                  * * # *
