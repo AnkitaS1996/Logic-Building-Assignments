@@ -1,5 +1,5 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/// Statement = Accept N Number from user and return Difference between Summation Of Even Elements And Summation Of Odd Elements.c
+/// Statement 21.1 = Accept N Number from user and return Difference between Summation Of Even Elements And Summation Of Odd Elements.c
 ///    INPUT  = N :    6
 /// Elements  = 85      66     3     80     93     88
 ///   OUTPUT  = 53 (234-181)
@@ -8,9 +8,12 @@
 #include<stdio.h>
 #include<conio.h>
 #include<stdlib.h>
+
 int Difference(int Arr[],int iLength)
 {
     int i = 0, E_Sum = 0,O_Sum = 0;
+
+    printf("\n");
 
     for(i = 0;i < iLength;i++)
     {
@@ -25,6 +28,7 @@ int Difference(int Arr[],int iLength)
     }
     return(E_Sum - O_Sum);
 }
+
 int main()
 {
     int iSize = 0,iRet = 0,iCnt = 0;
@@ -42,6 +46,7 @@ int main()
     }
 
     printf("\n ===========================================================\n");
+
     for(iCnt=0;iCnt<iSize;iCnt++)
     {
         printf("\n Enter %d Elements : ",iCnt+1);
@@ -50,6 +55,7 @@ int main()
 
     iRet = Difference(P,iSize);
     printf("\n ===========================================================\n");
+
     printf("\n Result is %d",iRet);
 
     free(P);
