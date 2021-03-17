@@ -37,12 +37,15 @@ int main()
         printf("\n Unable to Allocate Memory. ");
         return - 1;
     }
+
     printf("\n=====================================================================\n");
+
     for(iCnt = 0;iCnt < iSize;iCnt++)
     {
         printf("\n Enter %d Element : ",iCnt+1);
         scanf("%d",&P[iCnt]);
     }
+
     printf("\n=====================================================================\n");
 
     Display(P,iSize);
