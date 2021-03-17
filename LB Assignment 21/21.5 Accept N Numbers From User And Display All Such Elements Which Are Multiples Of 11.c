@@ -14,7 +14,6 @@ void Display(int Arr[],int iLength)
     int i = 0;
 
     printf("\n");
-
     for(i = 0; i < iLength;i++)
     {
         if(Arr[i]%11==0)
