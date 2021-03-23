@@ -34,9 +34,11 @@ int main()
     int iSize = 0,iRet = 0,iCnt = 0,iValue = 0;
     int *P = NULL;
 
+    printf("\n===========================================================\n");
     printf("\n Enter Number Of Elements : ");
     scanf("%d",&iSize);
 
+    printf("\n===========================================================\n");
     printf("\n Enter The Number : ");
     scanf("%d",&iValue);
 
@@ -48,6 +50,7 @@ int main()
         return - 1;
     }
 
+    printf("\n===========================================================\n");
     for(iCnt = 0;iCnt < iSize;iCnt++)
     {
         printf("\n Enter %d Element : ",iCnt+1);
@@ -55,17 +58,19 @@ int main()
     }
 
     iRet = Index_First_Occurrence_No(P,iSize,iValue);
-
+    printf("\n===========================================================\n");
     if(iRet == 0)
     {
-        printf("\n There Is Number %d Not There in Array",iValue);
+        printf("\n There Is Number %d Not There in Array\n",iValue);
     }
     else
     {
-        printf("\n First Occurrence Of Number is %d",iRet);
+        printf("\n First Occurrence Of Number is %d\n",iRet);
     }
+    printf("\n===========================================================\n");
     free(P);
     printf("\n Thank You..!!\n");
+    printf("\n===========================================================\n");
     getch();
     return 0;
 }
