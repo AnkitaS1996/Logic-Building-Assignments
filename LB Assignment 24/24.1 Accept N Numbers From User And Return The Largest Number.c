@@ -7,9 +7,7 @@
 
 #include<stdio.h>
 #include<conio.h>
-
-#define TRUE 1
-#define FALSE 0
+#include<stdlib.h>
 
 int Largest_Number(int Arr[],int iLength)
 {
