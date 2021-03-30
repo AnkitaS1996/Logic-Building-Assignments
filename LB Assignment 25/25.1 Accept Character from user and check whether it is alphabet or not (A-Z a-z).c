@@ -17,7 +17,6 @@ BOOL ChkAlpha(char ch)
 	   {
 		     return TRUE;
 	   }
-
 	   return FALSE;
 }
 
