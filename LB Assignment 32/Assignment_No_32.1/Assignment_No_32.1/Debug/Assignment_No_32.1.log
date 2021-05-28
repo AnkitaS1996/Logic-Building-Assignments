@@ -1,0 +1,4 @@
+﻿  32.1_Write_A_Program_which_checks_whether_15th_bit_is_On_or_OFF.c
+F:\Ankita\LB Assignments\LB Assignment 32\Assignment_No_32.1\Assignment_No_32.1\32.1_Write_A_Program_which_checks_whether_15th_bit_is_On_or_OFF.c(35,122): warning C4474: 'printf' : too many arguments passed for format string
+F:\Ankita\LB Assignments\LB Assignment 32\Assignment_No_32.1\Assignment_No_32.1\32.1_Write_A_Program_which_checks_whether_15th_bit_is_On_or_OFF.c(35,122): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+  Assignment_No_32.1.vcxproj -> F:\Ankita\LB Assignments\LB Assignment 32\Assignment_No_32.1\Debug\Assignment_No_32.1.exe
