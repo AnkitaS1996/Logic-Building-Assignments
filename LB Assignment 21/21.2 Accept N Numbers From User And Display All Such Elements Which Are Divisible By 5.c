@@ -25,7 +25,7 @@ void Display(int Arr[],int iLength)
 
 int main()
 {
-    int iSize = 0,iRet = 0,iCnt = 0;
+    int iSize = 0,iCnt = 0;
     int *P = NULL;
 
     printf("\n Enter Number Of Elements : ");
@@ -51,7 +51,7 @@ int main()
 
     printf("\n\n Thank You..!!");
 
-    getch();
+    _getch();
     return 0;
 
 }
